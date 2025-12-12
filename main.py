@@ -82,5 +82,10 @@ print("\nEcart-type %GC: {:.2f}".format(std_gc))
 print("Ecart-type longueur : {:.2f}".format(std_longueur))
 
 
-
+#Ben moumane yasmine
+#question 8
+#8)Télécharger un fichier CVS et le mettre Dans un DataFrane 
+#charger un fichier CVS dans un DataFrane
+df_loaded=pd.read_CSV("tableau_sequences.CSV")
+print(df_loaded)
 
