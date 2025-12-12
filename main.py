@@ -87,5 +87,5 @@ print("Ben moumane yasmine""\n")
 #8) Télécharger un fichier CVS et le mettre Dans un DataFrane 
 #charger un fichier CVS dans un DataFrane
 #df_loaded=pd.read_CSV("tableau_sequences.CSV")
-print(df_loaded)
+print("df_loaded")
 
