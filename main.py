@@ -85,7 +85,7 @@ print("Ecart-type longueur : {:.2f}".format(std_longueur),"\n" , "\n")
 print("Ben moumane yasmine""\n")
 #question 8
 #8) Télécharger un fichier CVS et le mettre Dans un DataFrane 
-#charger un fichier CVS dans un DataFrane
-#df_loaded=pd.read_CSV("tableau_sequences.CSV")
-print("df_loaded")
+#charger un fichier CVS dans un DataFrame
+df.to_csv('tableau_final.csv', index=False)
+print("\nTableau sauvegarde dans 'tableau_final.csv'")
 
