@@ -44,6 +44,8 @@ print("********** filtrege avec pourcentage % *********","\n")
 average_GC = df["pourcentage GC"]. mean()
 print(f"pourcentage moyen de GC : {average_GC:.3f}%","\n" , "\n")
 
+
+
 # ALI Salah
 #5) Ajouter une colonne "categorie GC"
 def categorize(gc):
@@ -55,12 +57,15 @@ def categorize(gc):
         return 'Faible'
 df['categorie GC'] = df["pourcentage GC"] .apply(categorize)
 print ("\n Tableau avec Categorie GC:")
-print(df)
-#grita Nesrine
+print(df , "\n" , "\n") 
+
+
+
+# Grita Nesrine
 #6) ajouter une colone donnant le nombre de "G" dans chaque séquence 
 df["nombre de G"] = df["séquence"].str.count("G") 
 print("**** G) Nombre de G ajoutés *****")
-
 print(df, "\n")
+
 
 
