@@ -44,5 +44,18 @@ print("********** filtrege avec pourcentage % *********","\n")
 average_GC = df["pourcentage GC"]. mean()
 print(f"pourcentage moyen de GC : {average_GC:.3f}%","\n" , "\n")
 
+# ALI Salah
+#5) Ajouter une colonne "categorie GC"
+def categorize(gc):
+    if gc > 55:
+        return 'Riche'
+    elif 45 <= gc <= 55:
+        return 'Moyen'
+    elif gc < 45:
+        return 'Faible'
+df['categorie GC'] = df["pourcentage GC"] .apply(categorize)
+print ("\n Tableau avec Categorie GC:")
+print(df)
+
 
 
