@@ -73,4 +73,14 @@ print("**** G) Nombre de G ajoutés *****")
 print(df, "\n")
 
 
+print("Abdelwaheb benichou ""\n")
+# Abdelwaheb benichou 
+#7)calculer l'ecart-type du %GC et de la longueurdes séquence
+std_gc = df['pourcentage GC'].std()
+std_longueur = df['longueur'].std()
+print("\nEcart-type %GC: {:.2f}".format(std_gc))
+print("Ecart-type longueur : {:.2f}".format(std_longueur))
+
+
+
 
