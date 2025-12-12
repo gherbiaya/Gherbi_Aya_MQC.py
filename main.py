@@ -79,13 +79,13 @@ print("Abdelwaheb benichou ""\n")
 std_gc = df['pourcentage GC'].std()
 std_longueur = df['longueur'].std()
 print("\nEcart-type %GC: {:.2f}".format(std_gc))
-print("Ecart-type longueur : {:.2f}".format(std_longueur))
+print("Ecart-type longueur : {:.2f}".format(std_longueur),"\n" , "\n")
 
 
-#Ben moumane yasmine
+print("Ben moumane yasmine""\n")
 #question 8
-#8)Télécharger un fichier CVS et le mettre Dans un DataFrane 
+#8) Télécharger un fichier CVS et le mettre Dans un DataFrane 
 #charger un fichier CVS dans un DataFrane
-df_loaded=pd.read_CSV("tableau_sequences.CSV")
+#df_loaded=pd.read_CSV("tableau_sequences.CSV")
 print(df_loaded)
 
