@@ -45,8 +45,9 @@ average_GC = df["pourcentage GC"]. mean()
 print(f"pourcentage moyen de GC : {average_GC:.3f}%","\n" , "\n")
 
 
+print("ALI SALAH""\n")
+# ALI SALAH
 
-# ALI Salah
 #5) Ajouter une colonne "categorie GC"
 def categorize(gc):
     if gc > 55:
@@ -61,7 +62,11 @@ print(df , "\n" , "\n")
 
 
 
+
+
+print("Grita Nesrine""\n")
 # Grita Nesrine
+
 #6) ajouter une colone donnant le nombre de "G" dans chaque séquence 
 df["nombre de G"] = df["séquence"].str.count("G") 
 print("**** G) Nombre de G ajoutés *****")
