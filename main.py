@@ -42,7 +42,7 @@ print(filtred_df,"\n" , "\n")
 print("********** filtrege avec pourcentage % *********","\n")
 
 average_GC = df["pourcentage GC"]. mean()
-print(f"pourcentage moyen de GC : {average_GC:.3f}%","\n" , "\n")
+print(f"pourcentage moyen de GC : {average_GC:.3f}%","\n" , "\n" ، "\n")
 
 
 print("ALI SALAH""\n")
