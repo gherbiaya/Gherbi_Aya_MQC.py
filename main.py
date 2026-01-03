@@ -45,6 +45,8 @@ average_GC = df["pourcentage GC"]. mean()
 print(f"pourcentage moyen de GC : {average_GC:.3f}%","\n" , "\n" , "\n")
 
 
+
+
 print("ALI SALAH""\n")
 # ALI SALAH
 
@@ -62,8 +64,6 @@ print(df , "\n" , "\n")
 
 
 
-
-
 print("Grita Nesrine""\n")
 # Grita Nesrine
 
@@ -71,6 +71,7 @@ print("Grita Nesrine""\n")
 df["nombre de G"] = df["séquence"].str.count("G") 
 print("**** G) Nombre de G ajoutés *****")
 print(df, "\n")
+
 
 
 print("Abdelwaheb benichou ""\n")
